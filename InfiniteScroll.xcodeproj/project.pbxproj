@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		7EC31E521BF999B500878A23 /* InfiniteScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC31E511BF999B500878A23 /* InfiniteScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC31E5B1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC31E591BF99A5E00878A23 /* UIScrollView+InfiniteScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC31E5C1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC31E5A1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7EC31E4E1BF999B500878A23 /* InfiniteScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InfiniteScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC31E511BF999B500878A23 /* InfiniteScroll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfiniteScroll.h; sourceTree = "<group>"; };
 		7EC31E531BF999B500878A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC31E591BF99A5E00878A23 /* UIScrollView+InfiniteScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+InfiniteScroll.h"; sourceTree = "<group>"; };
+		7EC31E5A1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+InfiniteScroll.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		7EC31E501BF999B500878A23 /* InfiniteScroll */ = {
 			isa = PBXGroup;
 			children = (
+				7EC31E591BF99A5E00878A23 /* UIScrollView+InfiniteScroll.h */,
+				7EC31E5A1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.m */,
 				7EC31E511BF999B500878A23 /* InfiniteScroll.h */,
 				7EC31E531BF999B500878A23 /* Info.plist */,
 			);
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EC31E521BF999B500878A23 /* InfiniteScroll.h in Headers */,
+				7EC31E5B1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC31E5C1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +243,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.codeispoetry.Infinite-Scroll.InfiniteScroll";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos9.0;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -251,6 +260,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.codeispoetry.Infinite-Scroll.InfiniteScroll";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos9.0;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

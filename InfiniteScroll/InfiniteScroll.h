@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char InfiniteScrollVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <InfiniteScroll/PublicHeader.h>
 
-
+#import "UIScrollView+InfiniteScroll.h"
