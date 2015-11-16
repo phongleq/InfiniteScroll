@@ -10,6 +10,7 @@
 		7EC31E521BF999B500878A23 /* InfiniteScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC31E511BF999B500878A23 /* InfiniteScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EC31E5B1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC31E591BF99A5E00878A23 /* UIScrollView+InfiniteScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EC31E5C1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC31E5A1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.m */; };
+		7EC31E5E1BF9AE1F00878A23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC31E5D1BF9AE1F00878A23 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		7EC31E531BF999B500878A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EC31E591BF99A5E00878A23 /* UIScrollView+InfiniteScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+InfiniteScroll.h"; sourceTree = "<group>"; };
 		7EC31E5A1BF99A5E00878A23 /* UIScrollView+InfiniteScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+InfiniteScroll.m"; sourceTree = "<group>"; };
+		7EC31E5D1BF9AE1F00878A23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC31E5E1BF9AE1F00878A23 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +37,7 @@
 		7EC31E441BF999B500878A23 = {
 			isa = PBXGroup;
 			children = (
+				7EC31E5D1BF9AE1F00878A23 /* UIKit.framework */,
 				7EC31E501BF999B500878A23 /* InfiniteScroll */,
 				7EC31E4F1BF999B500878A23 /* Products */,
 			);
@@ -252,7 +256,7 @@
 		7EC31E581BF999B500878A23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
